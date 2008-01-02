@@ -13,6 +13,7 @@ Source: %{name}-%{version}.tar.bz2
 Source1: hotwayd.xinetd.bz2
 Source2: hotsmtpd.xinetd.bz2
 BuildRequires: libxml2-devel libsasl-devel
+BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Hotway is a POP3-HTTPMail gateway daemon. HTTPMail is an undocumented 
