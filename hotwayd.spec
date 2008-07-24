@@ -1,6 +1,6 @@
 %define name hotwayd
 %define version 0.8.4
-%define release %mkrel 1
+%define release %mkrel 3
 
 Summary: POP3 to HTTPMail gateway daemon to access Hotmail / Lycos mailboxes
 Name: %{name}
