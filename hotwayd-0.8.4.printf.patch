@@ -1,0 +1,11 @@
+--- hotwayd-0.8.4/xmlstuff.c.printf	2005-02-15 00:52:49.000000000 +0300
++++ hotwayd-0.8.4/xmlstuff.c	2012-11-06 18:43:45.513828994 +0400
+@@ -126,7 +126,7 @@ static void xmlParseDoc_error_handler(vo
+     va_end(ap);
+     buf[len]='\0';
+     
+-    LOG(buf);
++    LOG("%s", buf);
+     free(buf);
+   }
+   return;
