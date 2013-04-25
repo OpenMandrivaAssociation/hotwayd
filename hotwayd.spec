@@ -3,17 +3,18 @@
 %define release 3
 
 Summary: POP3 to HTTPMail gateway daemon to access Hotmail / Lycos mailboxes
-Name: %{name}
-Version: %{version}
-Release: %{release}
+Name:   hotwayd
+Version: 0.8.4
+Release: 4
 License: GPLv2+
 Group: System/Servers
 URL: http://hotwayd.sourceforge.net/
 Source0: %{name}-%{version}.tar.bz2
 Source1: hotwayd.xinetd.bz2
 Source2: hotsmtpd.xinetd.bz2
-patch0:  hotwayd-0.8.4.printf.patch
-BuildRequires: pkgconfig(libxml-2.0) libsasl-devel
+Patch0:  hotwayd-0.8.4.printf.patch
+BuildRequires: pkgconfig(libxml-2.0)
+BuildRequires: sasl-devel
 
 %description
 Hotway is a POP3-HTTPMail gateway daemon. HTTPMail is an undocumented 
