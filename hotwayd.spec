@@ -8,7 +8,7 @@ Version: 0.8.4
 Release: 4
 License: GPLv2+
 Group: System/Servers
-URL: http://hotwayd.sourceforge.net/
+URL: https://hotwayd.sourceforge.net/
 Source0: %{name}-%{version}.tar.bz2
 Source1: hotwayd.xinetd.bz2
 Source2: hotsmtpd.xinetd.bz2
